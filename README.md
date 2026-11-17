@@ -1,8 +1,11 @@
 # Portifolio_Gustavo_Oliveira_
 
 Olá, eu sou Gustavo de Oliveira 👋
+
 🎓 Estudante de Engenharia de Computação
+
 💻 Digital Innovation | Data | Automation
+
 📍 São Paulo, Brasil
 
 Sobre mim
