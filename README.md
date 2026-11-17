@@ -26,7 +26,7 @@ Git -
 GitHub - 
 Power Automate - 
 Streamlit - 
-Celonis - 
+Celonis 
 
 Principais projetos
 
