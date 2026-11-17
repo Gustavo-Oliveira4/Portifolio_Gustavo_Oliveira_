@@ -1,0 +1,5 @@
+streamlit>=1.50
+pymongo>=4.6
+pandas>=2.0
+mongomock>=4.1      # modo demonstração e testes (dados em memória)
+pytest>=8.0         # testes automatizados

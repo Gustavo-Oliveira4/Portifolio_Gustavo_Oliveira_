@@ -1,0 +1,3 @@
+cd C:\projetos\restaurante
+.venv\Scripts\activate
+$env:MONGO_URI="mongomock://"; streamlit run app.py
