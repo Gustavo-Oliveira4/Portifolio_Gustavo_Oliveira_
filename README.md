@@ -13,18 +13,20 @@ Tenho interesse em desenvolvimento de soluções utilizando dados, automação e
 Atualmente desenvolvo projetos envolvendo Python, Power BI, Power Automate, Git/GitHub, MongoDB e análise de dados.
 Também venho aprofundando meus conhecimentos em Process Mining e soluções utilizando Celonis.
 
-Tecnologias
-Python
-Power BI
-DAX
-Power Query
-MongoDB
-SQL
-Git
-GitHub
-Power Automate
-Streamlit
-Celonis
+Tecnologias: 
+Python - 
+Power BI - 
+IA - 
+Ollama - 
+DAX - 
+Power Query - 
+MongoDB - 
+SQL - 
+Git - 
+GitHub - 
+Power Automate - 
+Streamlit - 
+Celonis - 
 
 Principais projetos
 
