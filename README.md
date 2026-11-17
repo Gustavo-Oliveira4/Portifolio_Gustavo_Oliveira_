@@ -32,29 +32,33 @@ Principais projetos:
 
 🔎 Documentation Checker
 Aplicação desenvolvida em Python e Streamlit para analisar a documentação existente em projetos e repositórios.
+
 Tecnologias: Python | Streamlit | Git | Ollama 
 
 
 
 📊 Project Management Analytics
 Solução para análise e acompanhamento de projetos, status, deadlines, responsáveis e qualidade dos dados.
+
 Tecnologias: Power BI | DAX | Power Query | Data Analytics
 
 
 
 🍽️ Restaurant Reservation System
 Sistema de gerenciamento de reservas desenvolvido como projeto acadêmico.
+
 Tecnologias: Python | MongoDB | NoSQL
 
 
 
 Atualmente estudando
-Process Mining
-Celonis
-Data Analytics
-Python
-Automação
-Cloud
+Process Mining - 
+Celonis - 
+IA - 
+Data Analytics - 
+Python - 
+Automação - 
+Cloud - 
 
 Contato
 LinkedIn: www.linkedin.com/in/gustavo-oliveira-8928692b1
