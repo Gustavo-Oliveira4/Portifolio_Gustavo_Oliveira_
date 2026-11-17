@@ -1,5 +1,5 @@
 """
-Interface Streamlit do DI Code Knowledge - Verificacao Git.
+Interface Streamlit do Git Quality Validator - Verificacao Git.
 
 Exibe somente a verificacao de documentacao dos projetos do
 repositorio Git do time (README ou Word), usando o
@@ -20,24 +20,23 @@ import streamlit as st
 import verificador_documentacao as verificador
 
 # ============================================================
-# CONSTANTES VISUAIS (BRAND BOOK DANONE)
+# CONSTANTES VISUAIS (PADRAO ROXO)
 # ============================================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PASTA_ASSETS = os.path.join(BASE_DIR, "assets")
-LOGO_DANONE = os.path.join(PASTA_ASSETS, "logo_danone_branco.png")
-LOGO_DI = os.path.join(PASTA_ASSETS, "logo_di_branco.png")
+LOGO_GITHUB = os.path.join(PASTA_ASSETS, "logo_github_branco.png")
 ASSINATURA = (
-    "Gustavo de Oliveira - Estagiario - Digital Innovation - Brasil"
+    "Gustavo de Oliveira - Brasil"
 )
 ICONE = os.path.join(PASTA_ASSETS, "icon.ico")
 
-COR_FUNDO = "#F5F7FA"
-COR_PRIMARIA = "#005EB8"      # Azul Danone
-COR_SECUNDARIA = "#002F6C"    # Azul escuro Danone
-COR_DESTAQUE = "#00AEEF"      # Azul claro Danone
-COR_DESTAQUE_2 = "#7AC943"    # Verde Danone
-COR_OK = "#00843D"            # Verde secundario (Pantone 348 C)
-COR_FALHA = "#EF3340"         # Vermelho secundario (Pantone 032 C)
+COR_FUNDO = "#F7F5FB"
+COR_PRIMARIA = "#6F42C1"      # Roxo principal
+COR_SECUNDARIA = "#3D1A78"    # Roxo escuro
+COR_DESTAQUE = "#9B6DFF"      # Roxo claro
+COR_DESTAQUE_2 = "#D4BBFF"    # Lilas
+COR_OK = "#00843D"            # Verde (status OK)
+COR_FALHA = "#EF3340"         # Vermelho (status falha)
 NOME_APP = "GIT QUALITY VALIDATOR"
 
 # ============================================================
@@ -60,26 +59,17 @@ def _imagem_para_base64(caminho_imagem):
 
 def exibir_banner_topo():
     """
-    Faixa superior em degrade azul com os logos Danone e DI (brancos)
+    Faixa superior em degrade roxo com o logo do GitHub (branco)
     a esquerda e, a direita, o nome do aplicativo com a assinatura.
     """
-    danone_base64 = _imagem_para_base64(LOGO_DANONE)
-    di_base64 = _imagem_para_base64(LOGO_DI)
-    logo_danone_html = (
-        f'<img src="data:image/png;base64,{danone_base64}" '
+    github_base64 = _imagem_para_base64(LOGO_GITHUB)
+
+    logo_github_html = (
+        f'<img src="data:image/png;base64,{github_base64}" '
         f'style="height: 82px; width: auto;">'
-        if danone_base64 else ""
+        if github_base64 else ""
     )
-    logo_di_html = (
-        f'<img src="data:image/png;base64,{di_base64}" '
-        f'style="height: 64px; width: auto;">'
-        if di_base64 else ""
-    )
-    divisor_html = (
-        '<div style="width: 1px; height: 56px; '
-        'background-color: rgba(255, 255, 255, 0.5);"></div>'
-        if danone_base64 and di_base64 else ""
-    )
+
     st.markdown(
         f"""
         <div style="
@@ -95,9 +85,7 @@ def exibir_banner_topo():
             margin-bottom: 1.5rem;
         ">
             <div style="display: flex; align-items: center; gap: 22px;">
-                {logo_danone_html}
-                {divisor_html}
-                {logo_di_html}
+                {logo_github_html}
             </div>
             <div style="text-align: right;">
                 <div style="
@@ -121,7 +109,7 @@ def exibir_banner_topo():
 
 def carregar_css():
     """
-    Aplica o visual Danone sobre a interface padrao do Streamlit.
+    Aplica o visual roxo sobre a interface padrao do Streamlit.
     """
     css = """
     <style>
