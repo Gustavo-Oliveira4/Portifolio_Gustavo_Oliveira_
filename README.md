@@ -28,7 +28,7 @@ Power Automate -
 Streamlit - 
 Celonis 
 
-Principais projetos
+Principais projetos:
 
 🔎 Documentation Checker
 Aplicação desenvolvida em Python e Streamlit para analisar a documentação existente em projetos e repositórios.
