@@ -1,141 +1,285 @@
-# MesaFácil – Gestão de Reservas, Ocupação de Mesas e Acompanhamento de Pedidos
+<div align="center">
 
-Sistema desenvolvido em **Python + Streamlit + MongoDB** para um restaurante com
-**100 mesas** (70 no térreo e 30 no mezanino), **30 garçons** e **5 chefes**.
-Ele implementa os requisitos de usuário (RU) e as regras de negócio (RN) do documento
-*Requisitos_Sistema_Restaurante_ABNT*.
+# 🍽️ MesaFácil
 
-## 1. Como executar
+### Sistema de Gestão de Reservas, Ocupação de Mesas e Acompanhamento de Pedidos
 
-### Opção A – Modo demonstração (sem instalar o MongoDB)
-Os dados ficam em memória e o salão já começa movimentado (mesas ocupadas, pedidos e reservas).
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-47A248?logo=mongodb&logoColor=white)
+![Testes](https://img.shields.io/badge/testes-33%20aprovados-2E7D32)
+![Status](https://img.shields.io/badge/status-acad%C3%AAmico-F57C00)
 
+Projeto acadêmico do curso de **Engenharia de Computação** que integra cliente, salão e cozinha
+de um restaurante em tempo real.
+
+[Sobre](#-sobre-o-projeto) •
+[Funcionalidades](#-funcionalidades) •
+[Tecnologias](#-tecnologias) •
+[Como executar](#-como-executar) •
+[Arquitetura](#-arquitetura) •
+[Testes](#-testes) •
+[Autor](#-autor)
+
+</div>
+
+---
+
+## 📌 Sobre o projeto
+
+Em restaurantes de grande porte, os horários de pico revelam problemas recorrentes de coordenação:
+a equipe não sabe quais mesas estão livres, clientes aguardam sem atendimento e pratos prontos esfriam
+no balcão por falta de aviso ao garçom.
+
+O **MesaFácil** foi desenvolvido para um restaurante com **100 mesas** (70 no térreo e 30 no mezanino),
+**30 garçons** e **5 chefes de cozinha**. O sistema oferece três visões integradas:
+
+| Perfil | Papel no sistema |
+|---|---|
+| 👤 **Cliente** | Reserva mesa pelo CPF e acompanha seus pedidos com tempo estimado de entrega |
+| 🧑‍🍳 **Garçom** | Gerencia ocupação, recebe notificações, lança pedidos e faz reservas manuais |
+| 🔥 **Cozinha** | Totens com a fila de preparo, tempo esperado e chamada do garçom para retirada |
+
+O projeto implementa os requisitos de usuário e as regras de negócio especificados no documento
+acadêmico *Sistema de Gestão de Reservas, Ocupação de Mesas e Acompanhamento de Pedidos para Restaurantes*.
+
+---
+
+## ✨ Funcionalidades
+
+### 👤 Cliente
+- Acesso apenas com CPF, sem cadastro de senha
+- Reserva com escolha de data, horário, número de pessoas e ambiente (térreo ou mezanino)
+- Alteração e cancelamento de reservas
+- Acompanhamento do pedido com barra de etapas e previsão de entrega atualizada automaticamente
+- Botão para chamar o garçom
+
+### 🧑‍🍳 Garçom
+- Mapa das 100 mesas com status por cor e alerta visual para mesas aguardando atendimento
+- Notificações de entrada, saída, pedido pronto, chamado do cliente e reserva expirada
+- Check-in de reservas e acomodação de clientes sem agendamento
+- Lançamento de pedidos com observações, enviados direto aos totens da cozinha
+- Confirmação de retirada e entrega, liberação e higienização da mesa
+- Reservas manuais para atendimento por telefone ou balcão
+
+### 🔥 Cozinha
+- Fila de pedidos ordenada por prioridade, agrupada por mesa e por ordem de chegada
+- Tempo decorrido, previsão de entrega e destaque para pedidos atrasados
+- Início de preparo, marcação de pedido pronto e chamada automática do garçom
+- Ajuste de tempo esperado e priorização de pedidos, ambos com justificativa obrigatória
+
+### 🎨 Estados da mesa
+
+| Cor | Estado |
+|---|---|
+| 🟢 Verde | Livre |
+| 🔵 Azul | Reservada |
+| 🔴 Vermelho | Ocupada – não atendida |
+| 🟡 Amarelo | Ocupada – atendida |
+| ⚪ Cinza | Em liberação (higienização) |
+
+---
+
+## 🛠️ Tecnologias
+
+| Tecnologia | Uso |
+|---|---|
+| **Python 3.10+** | Linguagem principal |
+| **Streamlit** | Interface web com atualização automática |
+| **MongoDB** | Banco de dados não relacional orientado a documentos |
+| **PyMongo** | Driver de conexão com o MongoDB |
+| **mongomock** | Banco em memória para modo demonstração e testes |
+| **Pandas** | Exibição de tabelas |
+| **Pytest** | Testes automatizados |
+| **Docker Compose** | Execução do MongoDB local |
+
+---
+
+## 🚀 Como executar
+
+### Pré-requisitos
+- [Python 3.10 ou superior](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/)
+- (Opcional) [Docker](https://www.docker.com/) para usar o MongoDB real
+
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/SEU-USUARIO/mesafacil.git
+cd mesafacil
+```
+
+### 2. Criar e ativar o ambiente virtual
 ```bash
 python -m venv .venv
-# Windows: .venv\Scripts\activate    |    Linux/Mac: source .venv/bin/activate
-pip install -r requirements.txt
 
+# Windows
+.venv\Scripts\activate
+
+# Linux / macOS
+source .venv/bin/activate
+```
+
+### 3. Instalar as dependências
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Executar
+
+**Modo demonstração** (sem MongoDB, dados em memória e salão já movimentado):
+```bash
 # Windows (PowerShell)
 $env:MONGO_URI="mongomock://"; streamlit run app.py
-# Linux/Mac
+
+# Linux / macOS
 MONGO_URI=mongomock:// streamlit run app.py
 ```
 
-> No modo demonstração os dados são perdidos quando o servidor é encerrado.
+**Com MongoDB** (dados persistentes):
+```bash
+docker compose up -d
+streamlit run app.py
+```
 
-### Opção B – Com MongoDB (persistente)
-1. Suba o MongoDB: `docker compose up -d` (ou instale o MongoDB Community / use o MongoDB Atlas).
-2. Instale as dependências: `pip install -r requirements.txt`
-3. Execute: `streamlit run app.py`
+Acesse **http://localhost:8501** no navegador.
 
-Na primeira execução o sistema cria automaticamente as 100 mesas, os 35 funcionários e o cardápio.
+### 🔑 Acessos de demonstração
 
-| Variável     | Padrão                       | Descrição                                   |
-|--------------|------------------------------|---------------------------------------------|
-| `MONGO_URI`  | `mongodb://localhost:27017`  | Conexão (use `mongomock://` para demo)       |
-| `MONGO_DB`   | `restaurante`                | Nome do banco                                |
-| `DEMO`       | `1` em mongomock, `0` no Mongo | Gera o cenário de demonstração             |
+| Perfil | Login | Senha |
+|---|---|---|
+| Garçom | `G01` a `G21` (térreo) · `G22` a `G30` (mezanino) | `garcom123` |
+| Cozinha | `C01` a `C05` | `chef123` |
+| Cliente | Qualquer CPF válido · `529.982.247-25` já possui mesa com pedido no modo demonstração | — |
 
-Comandos úteis: `python -m core.seed --reset` (recria a carga inicial) e `python -m core.demo`
-(gera o cenário de demonstração no MongoDB real).
+> 💡 Abra três abas do navegador, uma para cada perfil, para ver a integração em tempo real.
 
-## 2. Acessos
+### ⚙️ Variáveis de ambiente
 
-| Perfil   | Login                                   | Senha       |
-|----------|-----------------------------------------|-------------|
-| Garçom   | `G01` a `G21` (térreo), `G22` a `G30` (mezanino) | `garcom123` |
-| Cozinha  | `C01` a `C05` (um por totem)            | `chef123`   |
-| Cliente  | Qualquer CPF válido. No modo demo, `529.982.247-25` já está em uma mesa com pedido | – |
+| Variável | Padrão | Descrição |
+|---|---|---|
+| `MONGO_URI` | `mongodb://localhost:27017` | Conexão com o banco (`mongomock://` para demonstração) |
+| `MONGO_DB` | `restaurante` | Nome do banco de dados |
+| `DEMO` | `1` em mongomock, `0` no MongoDB | Gera o cenário de demonstração |
 
-Dica: abra três abas do navegador (Cliente, Garçom e Cozinha) para ver a integração em tempo real.
-As telas se atualizam automaticamente a cada 5 segundos.
+---
 
-## 3. Estrutura do projeto
+## 🏗️ Arquitetura
+
+O sistema segue uma **arquitetura em camadas**: a interface não contém regras de negócio, apenas chama
+a camada de serviços. Assim, a mesma lógica poderia ser reutilizada por uma API ou um aplicativo móvel.
 
 ```
-restaurante/
-├── app.py                # ponto de entrada (roteia para a visão de cada perfil)
-├── core/
-│   ├── config.py         # parâmetros das regras de negócio (tolerâncias, prazos, percentuais)
-│   ├── database.py       # conexão com o MongoDB e índices
-│   ├── services.py       # TODAS as regras de negócio (RN-01 a RN-26)
-│   ├── seed.py           # carga inicial: mesas, setores, funcionários, cardápio
-│   ├── demo.py           # cenário de demonstração
-│   └── utils.py          # CPF, senhas (PBKDF2), formatação de datas
-├── ui/
-│   ├── login.py          # campos Funcionário e Cliente lado a lado
-│   ├── cliente.py        # reserva por CPF e acompanhamento do pedido
-│   ├── garcom.py         # mapa de mesas, notificações, atendimento, retiradas e reservas
-│   ├── cozinha.py        # totem com a fila de preparo
-│   ├── comum.py          # componentes compartilhados
-│   └── estilo.py         # identidade visual (vermelho, laranja, amarelo e branco)
-├── tests/                # 33 testes automatizados (regras de negócio + interface)
+┌─────────────────────────────────────────────┐
+│     Interface (Streamlit)  ·  ui/            │
+│   Cliente  ·  Garçom  ·  Cozinha  ·  Login   │
+└───────────────────────┬─────────────────────┘
+                        │
+┌───────────────────────▼─────────────────────┐
+│  Serviços / Regras de negócio · core/        │
+│  services.py  (RN-01 a RN-26)                │
+└───────────────────────┬─────────────────────┘
+                        │
+┌───────────────────────▼─────────────────────┐
+│          MongoDB  (8 coleções)              │
+└─────────────────────────────────────────────┘
+```
+
+### 📁 Estrutura de pastas
+```
+mesafacil/
+├── app.py                 # Ponto de entrada
+├── requirements.txt
 ├── docker-compose.yml
-└── requirements.txt
+├── .streamlit/
+│   └── config.toml        # Tema visual
+├── core/
+│   ├── config.py          # Parâmetros das regras de negócio
+│   ├── database.py        # Conexão e índices do MongoDB
+│   ├── services.py        # Regras de negócio
+│   ├── seed.py            # Carga inicial (mesas, funcionários, cardápio)
+│   ├── demo.py            # Cenário de demonstração
+│   └── utils.py           # CPF, senhas e formatação
+├── ui/
+│   ├── login.py           # Tela inicial (Funcionário | Cliente)
+│   ├── cliente.py
+│   ├── garcom.py
+│   ├── cozinha.py
+│   ├── comum.py
+│   └── estilo.py          # Identidade visual
+└── tests/
+    ├── test_regras.py     # Testes das regras de negócio
+    └── test_interface.py  # Testes da interface
 ```
 
-A interface **não contém regras de negócio**: ela apenas chama a camada `core/services.py`.
-Assim, a mesma lógica poderia ser reaproveitada por uma API ou um aplicativo móvel.
+### 🗄️ Modelo de dados (MongoDB)
 
-## 4. Modelo de dados (MongoDB)
-
-| Coleção        | Conteúdo principal |
-|----------------|--------------------|
-| `mesas`        | número, pavimento, capacidade, `reservavel` (cota RN-07), garçom do setor, status, atendimento atual |
-| `funcionarios` | matrícula, nome, perfil (`garcom`/`cozinha`), pavimento, senha com hash |
-| `reservas`     | CPF, nome, telefone, data/hora, turno, pessoas, mesa, status, origem (cliente/manual) |
-| `atendimentos` | cada ocupação de mesa: início, primeiro atendimento (tempo de espera), fim |
-| `pedidos`      | itens embutidos, status, histórico de status, chefe, prioridade, previsões de entrega |
-| `cardapio`     | itens com tempo padrão de preparo |
-| `notificacoes` | destinatários, tipo, confirmação e escalonamento |
-| `eventos`      | trilha de auditoria (RN-26): toda mudança de estado com data, hora e usuário |
-
-Os itens do pedido e o histórico ficam **embutidos** no documento do pedido, aproveitando o
-modelo orientado a documentos: um pedido é lido e gravado de uma só vez.
-
-## 5. Rastreabilidade: requisitos × implementação
-
-| Requisito / Regra | Onde |
+| Coleção | Conteúdo |
 |---|---|
-| RU-CLI-01..08 | `ui/cliente.py` + `Servico.criar_reserva/alterar_reserva/cancelar_reserva/acompanhamento_cliente/chamar_garcom` |
-| RU-GAR-01..12 | `ui/garcom.py` + `Servico.listar_mesas/fazer_checkin/ocupar_sem_reserva/lancar_pedido/confirmar_retirada/liberar_mesa` |
-| RU-COZ-01..08 | `ui/cozinha.py` + `Servico.fila_cozinha/iniciar_preparo/marcar_pronto/ajustar_tempo/priorizar` |
-| RU-QLD-02 (≤ 5 s) | `st.fragment(run_every=5)` nas telas dinâmicas |
-| RN-01 CPF | `utils.validar_cpf` |
-| RN-02 uma reserva por turno | `Servico._validar_unica_por_turno` |
-| RN-03 sem sobreposição | `Servico._mesa_disponivel` (permanência média de 120 min) |
-| RN-04 menor ociosidade | `Servico.mesas_disponiveis` (ordena por capacidade) |
-| RN-05 antecedência | `criar_reserva` / `_checar_prazo_alteracao` |
-| RN-06 tolerância 15 min | `processar_rotinas` (expira e notifica o garçom) |
-| RN-07 cota 20% | campo `reservavel` criado no `seed.py` |
-| RN-08 alocação manual | `ocupar_sem_reserva` (CPF opcional) |
-| RN-09 setorização | `seed._setores` |
-| RN-10 / RN-21 escalonamento | `_notificar(escalonar_min)` + `processar_rotinas` |
-| RN-11 / RN-12 espera e alerta | `registrar_atendimento`, `listar_mesas` (`alerta`) |
-| RN-13 liberação | `liberar_mesa` → `confirmar_limpeza` |
-| RN-14..RN-21 pedidos | `lancar_pedido`, `_avancar`, `recalcular_fila`, `cancelar_pedido`, `marcar_pronto` |
-| RN-22..RN-25 acesso e privacidade | `autenticar`, CPF mascarado (`mascarar_cpf`), totens sem dados pessoais |
-| RN-26 auditoria | `Servico._evento` → coleção `eventos` |
+| `mesas` | Número, pavimento, capacidade, garçom do setor e status |
+| `funcionarios` | Matrícula, perfil, pavimento e senha com hash |
+| `reservas` | CPF, data/hora, turno, pessoas, mesa e status |
+| `atendimentos` | Cada ocupação de mesa, com tempo de espera até o primeiro atendimento |
+| `pedidos` | Itens e histórico embutidos, status, chefe responsável e previsões |
+| `cardapio` | Itens com tempo padrão de preparo |
+| `notificacoes` | Avisos aos garçons, com confirmação e escalonamento |
+| `eventos` | Trilha de auditoria de todas as mudanças de estado |
 
-### Como o tempo esperado é calculado (RN-17)
-Cada chefe é tratado como uma "estação" de preparo. Os pedidos são distribuídos, na ordem da
-fila, para a primeira estação livre. A duração de um pedido é o maior tempo de preparo entre os
-seus itens (eles são preparados em paralelo), somado a eventuais ajustes do chefe. Assim, com 5
-chefes, os 5 primeiros pedidos começam na hora e o 6º espera a primeira estação liberar. A
-previsão é recalculada a cada mudança de status.
+---
 
-## 6. Testes
+## 📋 Principais regras de negócio
+
+| Regra | Descrição |
+|---|---|
+| **Validação de CPF** | Verificação dos dígitos verificadores |
+| **Reserva única** | Uma reserva ativa por CPF, data e turno |
+| **Sem sobreposição** | Considera tempo médio de permanência de 120 minutos |
+| **Alocação inteligente** | Escolhe a mesa com menor capacidade ociosa |
+| **Antecedência** | Reservas, alterações e cancelamentos com no mínimo 60 minutos |
+| **Tolerância de atraso** | Reserva expira 15 minutos após o horário (no-show) |
+| **Mesas sem agendamento** | 20% das mesas reservadas a clientes sem reserva |
+| **Alerta de espera** | Mesa sem atendimento por mais de 5 minutos é destacada |
+| **Escalonamento** | Avisos sem resposta são enviados a todos os garçons do pavimento |
+| **Tempo de preparo** | Simulação de 5 estações paralelas (uma por chefe) |
+| **Privacidade (LGPD)** | CPF mascarado nas telas internas; cozinha sem acesso a dados pessoais |
+| **Auditoria** | Toda mudança registrada com data, hora e usuário |
+
+> Todos os valores (tolerâncias, prazos e percentuais) são configuráveis em `core/config.py`.
+
+---
+
+## 🧪 Testes
+
+O projeto possui **33 testes automatizados**, cobrindo regras de negócio e interface. Os testes usam
+banco em memória e um relógio simulado para validar prazos sem esperar o tempo real.
 
 ```bash
 pytest -q
 ```
 
-Os testes usam `mongomock` e um relógio simulado para validar prazos (tolerância, escalonamento,
-atraso) sem esperar o tempo real.
+---
 
-## 7. Limitações conhecidas (escopo acadêmico)
-- Estados da mesa usam as cores sugeridas no documento (verde, azul, vermelho, amarelo e cinza);
-  o restante da interface segue a paleta vermelho, laranja, amarelo e branco.
-- As rotinas automáticas (expirar reservas e escalonar avisos) rodam a cada atualização das telas
-  abertas. Em produção, recomenda-se um agendador dedicado (ex.: APScheduler ou cron).
-- Não há módulo de pagamento nem de cadastro de cardápio/funcionários pela interface.
+## 🔮 Melhorias futuras
+
+- [ ] Agendador dedicado para rotinas automáticas (expiração de reservas e escalonamento de avisos)
+- [ ] Cadastro de cardápio e funcionários pela interface
+- [ ] Painel gerencial com indicadores (giro de mesas, tempo médio de espera, taxa de no-show)
+- [ ] API REST para integração com aplicativo móvel
+- [ ] Módulo de pagamento e fechamento de conta
+
+---
+
+## 👨‍💻 Autor
+
+**Gustavo de Oliveira**
+Estudante de Engenharia de Computação
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-PERFIL)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/SEU-USUARIO)
+
+---
+
+<div align="center">
+
+Projeto desenvolvido para fins acadêmicos.
+
+</div>
