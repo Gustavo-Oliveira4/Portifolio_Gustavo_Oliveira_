@@ -30,14 +30,14 @@ Celonis
 
 Principais projetos:
 
-🔎 Documentation Checker
+🔎 Documentation Checker - 
 Aplicação desenvolvida em Python e Streamlit para analisar a documentação existente em projetos e repositórios.
 
 Tecnologias: Python | Streamlit | Git | Ollama 
 
 
 
-🍽️ Restaurant Reservation System
+🍽️ Restaurant Reservation System - 
 Sistema de gerenciamento de reservas desenvolvido como projeto acadêmico.
 
 Tecnologias: Python | MongoDB | NoSQL
