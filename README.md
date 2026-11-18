@@ -41,8 +41,9 @@ a documentação existente em projetos e repositórios.
 
 Tecnologias:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white
-https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
 
 ---
 
