@@ -40,6 +40,7 @@ Aplicação desenvolvida em Python e Streamlit para analisar
 a documentação existente em projetos e repositórios.
 
 Tecnologias:
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -54,7 +55,10 @@ Sistema de gerenciamento de reservas desenvolvido como
 projeto acadêmico.
 
 Tecnologias:
-Python | MongoDB | NoSQL
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![NoSQL](https://img.shields.io/badge/NoSQL-4EA94B?style=flat&logo=mongodb&logoColor=white)
 
 ---
 
