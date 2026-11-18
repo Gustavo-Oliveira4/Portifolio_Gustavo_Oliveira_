@@ -1,0 +1,387 @@
+[
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603b8"
+    },
+    "matricula": "G01",
+    "nome": "Ana",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603b9"
+    },
+    "matricula": "G02",
+    "nome": "Bruno",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603ba"
+    },
+    "matricula": "G03",
+    "nome": "Carla",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603bb"
+    },
+    "matricula": "G04",
+    "nome": "Diego",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603bc"
+    },
+    "matricula": "G05",
+    "nome": "Elisa",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603bd"
+    },
+    "matricula": "G06",
+    "nome": "Fábio",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603be"
+    },
+    "matricula": "G07",
+    "nome": "Gabriela",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603bf"
+    },
+    "matricula": "G08",
+    "nome": "Henrique",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c0"
+    },
+    "matricula": "G09",
+    "nome": "Isabela",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c1"
+    },
+    "matricula": "G10",
+    "nome": "João",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c2"
+    },
+    "matricula": "G11",
+    "nome": "Karina",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c3"
+    },
+    "matricula": "G12",
+    "nome": "Lucas",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c4"
+    },
+    "matricula": "G13",
+    "nome": "Mariana",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c5"
+    },
+    "matricula": "G14",
+    "nome": "Nicolas",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c6"
+    },
+    "matricula": "G15",
+    "nome": "Olívia",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c7"
+    },
+    "matricula": "G16",
+    "nome": "Paulo",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c8"
+    },
+    "matricula": "G17",
+    "nome": "Queila",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603c9"
+    },
+    "matricula": "G18",
+    "nome": "Rafael",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603ca"
+    },
+    "matricula": "G19",
+    "nome": "Sofia",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603cb"
+    },
+    "matricula": "G20",
+    "nome": "Tiago",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603cc"
+    },
+    "matricula": "G21",
+    "nome": "Úrsula",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "terreo"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603cd"
+    },
+    "matricula": "G22",
+    "nome": "Vitor",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "mezanino"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603ce"
+    },
+    "matricula": "G23",
+    "nome": "Wesley",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "mezanino"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603cf"
+    },
+    "matricula": "G24",
+    "nome": "Xavier",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "mezanino"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d0"
+    },
+    "matricula": "G25",
+    "nome": "Yasmin",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "mezanino"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d1"
+    },
+    "matricula": "G26",
+    "nome": "Zeca",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "mezanino"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d2"
+    },
+    "matricula": "G27",
+    "nome": "Bianca",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "mezanino"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d3"
+    },
+    "matricula": "G28",
+    "nome": "Caio",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "mezanino"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d4"
+    },
+    "matricula": "G29",
+    "nome": "Débora",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "mezanino"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d5"
+    },
+    "matricula": "G30",
+    "nome": "Eduardo",
+    "perfil": "garcom",
+    "senha": "33a5715dacfca19af405d1ca2d6da645$7a76d9bf358fa66c249d4084f438876e8349b1e505e0c46cc618a7d12364d3ce",
+    "ativo": true,
+    "pavimento": "mezanino"
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d6"
+    },
+    "matricula": "C01",
+    "nome": "Chef Antônio",
+    "perfil": "cozinha",
+    "senha": "c8ffad0d573ff3e0626cb3bfd5020100$eeadc60f7b4dc58bd6075df39afedacdc413304e275757334d6d26a639880e02",
+    "ativo": true,
+    "pavimento": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d7"
+    },
+    "matricula": "C02",
+    "nome": "Chef Beatriz",
+    "perfil": "cozinha",
+    "senha": "c8ffad0d573ff3e0626cb3bfd5020100$eeadc60f7b4dc58bd6075df39afedacdc413304e275757334d6d26a639880e02",
+    "ativo": true,
+    "pavimento": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d8"
+    },
+    "matricula": "C03",
+    "nome": "Chef Cláudio",
+    "perfil": "cozinha",
+    "senha": "c8ffad0d573ff3e0626cb3bfd5020100$eeadc60f7b4dc58bd6075df39afedacdc413304e275757334d6d26a639880e02",
+    "ativo": true,
+    "pavimento": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603d9"
+    },
+    "matricula": "C04",
+    "nome": "Chef Denise",
+    "perfil": "cozinha",
+    "senha": "c8ffad0d573ff3e0626cb3bfd5020100$eeadc60f7b4dc58bd6075df39afedacdc413304e275757334d6d26a639880e02",
+    "ativo": true,
+    "pavimento": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603da"
+    },
+    "matricula": "C05",
+    "nome": "Chef Érico",
+    "perfil": "cozinha",
+    "senha": "c8ffad0d573ff3e0626cb3bfd5020100$eeadc60f7b4dc58bd6075df39afedacdc413304e275757334d6d26a639880e02",
+    "ativo": true,
+    "pavimento": null
+  }
+]

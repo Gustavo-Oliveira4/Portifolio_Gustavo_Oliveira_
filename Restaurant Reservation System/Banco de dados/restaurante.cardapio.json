@@ -1,0 +1,178 @@
+[
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766043f"
+    },
+    "codigo": 1,
+    "nome": "Bruschetta de tomate",
+    "categoria": "Entradas",
+    "preco": 32.0,
+    "tempo_preparo_min": 8,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660440"
+    },
+    "codigo": 2,
+    "nome": "Carpaccio",
+    "categoria": "Entradas",
+    "preco": 45.0,
+    "tempo_preparo_min": 10,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660441"
+    },
+    "codigo": 3,
+    "nome": "Bolinho de bacalhau (6 un.)",
+    "categoria": "Entradas",
+    "preco": 39.0,
+    "tempo_preparo_min": 12,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660442"
+    },
+    "codigo": 4,
+    "nome": "Salada Caesar",
+    "categoria": "Entradas",
+    "preco": 36.0,
+    "tempo_preparo_min": 7,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660443"
+    },
+    "codigo": 5,
+    "nome": "Risoto de cogumelos",
+    "categoria": "Pratos principais",
+    "preco": 78.0,
+    "tempo_preparo_min": 25,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660444"
+    },
+    "codigo": 6,
+    "nome": "Filé ao molho madeira",
+    "categoria": "Pratos principais",
+    "preco": 89.0,
+    "tempo_preparo_min": 22,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660445"
+    },
+    "codigo": 7,
+    "nome": "Salmão grelhado",
+    "categoria": "Pratos principais",
+    "preco": 95.0,
+    "tempo_preparo_min": 20,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660446"
+    },
+    "codigo": 8,
+    "nome": "Parmegiana de frango",
+    "categoria": "Pratos principais",
+    "preco": 69.0,
+    "tempo_preparo_min": 18,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660447"
+    },
+    "codigo": 9,
+    "nome": "Massa à carbonara",
+    "categoria": "Pratos principais",
+    "preco": 64.0,
+    "tempo_preparo_min": 15,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660448"
+    },
+    "codigo": 10,
+    "nome": "Picanha na chapa (2 pessoas)",
+    "categoria": "Pratos principais",
+    "preco": 159.0,
+    "tempo_preparo_min": 28,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660449"
+    },
+    "codigo": 11,
+    "nome": "Petit gâteau",
+    "categoria": "Sobremesas",
+    "preco": 32.0,
+    "tempo_preparo_min": 12,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766044a"
+    },
+    "codigo": 12,
+    "nome": "Pudim de leite",
+    "categoria": "Sobremesas",
+    "preco": 22.0,
+    "tempo_preparo_min": 3,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766044b"
+    },
+    "codigo": 13,
+    "nome": "Tiramisù",
+    "categoria": "Sobremesas",
+    "preco": 29.0,
+    "tempo_preparo_min": 4,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766044c"
+    },
+    "codigo": 14,
+    "nome": "Refrigerante lata",
+    "categoria": "Bebidas",
+    "preco": 8.0,
+    "tempo_preparo_min": 1,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766044d"
+    },
+    "codigo": 15,
+    "nome": "Suco natural",
+    "categoria": "Bebidas",
+    "preco": 14.0,
+    "tempo_preparo_min": 4,
+    "ativo": true
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766044e"
+    },
+    "codigo": 16,
+    "nome": "Água mineral",
+    "categoria": "Bebidas",
+    "preco": 6.0,
+    "tempo_preparo_min": 1,
+    "ativo": true
+  }
+]

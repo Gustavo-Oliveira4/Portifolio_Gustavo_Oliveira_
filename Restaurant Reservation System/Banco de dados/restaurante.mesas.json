@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603db"
+    },
+    "numero": 1,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G01",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603dc"
+    },
+    "numero": 2,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G01",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603dd"
+    },
+    "numero": 3,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G01",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603de"
+    },
+    "numero": 4,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G01",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603df"
+    },
+    "numero": 5,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G02",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e0"
+    },
+    "numero": 6,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G02",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e1"
+    },
+    "numero": 7,
+    "pavimento": "terreo",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G02",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e2"
+    },
+    "numero": 8,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G03",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e3"
+    },
+    "numero": 9,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G03",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e4"
+    },
+    "numero": 10,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G03",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e5"
+    },
+    "numero": 11,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G04",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e6"
+    },
+    "numero": 12,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G04",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e7"
+    },
+    "numero": 13,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G04",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e8"
+    },
+    "numero": 14,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G04",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603e9"
+    },
+    "numero": 15,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G05",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603ea"
+    },
+    "numero": 16,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G05",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603eb"
+    },
+    "numero": 17,
+    "pavimento": "terreo",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G05",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603ec"
+    },
+    "numero": 18,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G06",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603ed"
+    },
+    "numero": 19,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G06",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603ee"
+    },
+    "numero": 20,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G06",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603ef"
+    },
+    "numero": 21,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G07",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f0"
+    },
+    "numero": 22,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G07",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f1"
+    },
+    "numero": 23,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G07",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f2"
+    },
+    "numero": 24,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G07",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f3"
+    },
+    "numero": 25,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G08",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f4"
+    },
+    "numero": 26,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G08",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f5"
+    },
+    "numero": 27,
+    "pavimento": "terreo",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G08",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f6"
+    },
+    "numero": 28,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G09",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f7"
+    },
+    "numero": 29,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G09",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f8"
+    },
+    "numero": 30,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G09",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603f9"
+    },
+    "numero": 31,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G10",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603fa"
+    },
+    "numero": 32,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G10",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603fb"
+    },
+    "numero": 33,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G10",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603fc"
+    },
+    "numero": 34,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G10",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603fd"
+    },
+    "numero": 35,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G11",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603fe"
+    },
+    "numero": 36,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G11",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac6476603ff"
+    },
+    "numero": 37,
+    "pavimento": "terreo",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G11",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660400"
+    },
+    "numero": 38,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G12",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660401"
+    },
+    "numero": 39,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G12",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660402"
+    },
+    "numero": 40,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G12",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660403"
+    },
+    "numero": 41,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G13",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660404"
+    },
+    "numero": 42,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G13",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660405"
+    },
+    "numero": 43,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G13",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660406"
+    },
+    "numero": 44,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G13",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660407"
+    },
+    "numero": 45,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G14",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660408"
+    },
+    "numero": 46,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G14",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660409"
+    },
+    "numero": 47,
+    "pavimento": "terreo",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G14",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766040a"
+    },
+    "numero": 48,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G15",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766040b"
+    },
+    "numero": 49,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G15",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766040c"
+    },
+    "numero": 50,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G15",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766040d"
+    },
+    "numero": 51,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G16",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766040e"
+    },
+    "numero": 52,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G16",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766040f"
+    },
+    "numero": 53,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G16",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660410"
+    },
+    "numero": 54,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G16",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660411"
+    },
+    "numero": 55,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G17",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660412"
+    },
+    "numero": 56,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G17",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660413"
+    },
+    "numero": 57,
+    "pavimento": "terreo",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G17",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660414"
+    },
+    "numero": 58,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G18",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660415"
+    },
+    "numero": 59,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G18",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660416"
+    },
+    "numero": 60,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G18",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660417"
+    },
+    "numero": 61,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G19",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660418"
+    },
+    "numero": 62,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G19",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660419"
+    },
+    "numero": 63,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G19",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766041a"
+    },
+    "numero": 64,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G19",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766041b"
+    },
+    "numero": 65,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G20",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766041c"
+    },
+    "numero": 66,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G20",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766041d"
+    },
+    "numero": 67,
+    "pavimento": "terreo",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G20",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766041e"
+    },
+    "numero": 68,
+    "pavimento": "terreo",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G21",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766041f"
+    },
+    "numero": 69,
+    "pavimento": "terreo",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G21",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660420"
+    },
+    "numero": 70,
+    "pavimento": "terreo",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G21",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660421"
+    },
+    "numero": 71,
+    "pavimento": "mezanino",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G22",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660422"
+    },
+    "numero": 72,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G22",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660423"
+    },
+    "numero": 73,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G22",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660424"
+    },
+    "numero": 74,
+    "pavimento": "mezanino",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G22",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660425"
+    },
+    "numero": 75,
+    "pavimento": "mezanino",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G23",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660426"
+    },
+    "numero": 76,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G23",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660427"
+    },
+    "numero": 77,
+    "pavimento": "mezanino",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G23",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660428"
+    },
+    "numero": 78,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G24",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660429"
+    },
+    "numero": 79,
+    "pavimento": "mezanino",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G24",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766042a"
+    },
+    "numero": 80,
+    "pavimento": "mezanino",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G24",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766042b"
+    },
+    "numero": 81,
+    "pavimento": "mezanino",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G25",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766042c"
+    },
+    "numero": 82,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G25",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766042d"
+    },
+    "numero": 83,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G25",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766042e"
+    },
+    "numero": 84,
+    "pavimento": "mezanino",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G25",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766042f"
+    },
+    "numero": 85,
+    "pavimento": "mezanino",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G26",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660430"
+    },
+    "numero": 86,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G26",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660431"
+    },
+    "numero": 87,
+    "pavimento": "mezanino",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G26",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660432"
+    },
+    "numero": 88,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G27",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660433"
+    },
+    "numero": 89,
+    "pavimento": "mezanino",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G27",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660434"
+    },
+    "numero": 90,
+    "pavimento": "mezanino",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G27",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660435"
+    },
+    "numero": 91,
+    "pavimento": "mezanino",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G28",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660436"
+    },
+    "numero": 92,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G28",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660437"
+    },
+    "numero": 93,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G28",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660438"
+    },
+    "numero": 94,
+    "pavimento": "mezanino",
+    "capacidade": 6,
+    "reservavel": true,
+    "garcom": "G28",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac647660439"
+    },
+    "numero": 95,
+    "pavimento": "mezanino",
+    "capacidade": 2,
+    "reservavel": false,
+    "garcom": "G29",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766043a"
+    },
+    "numero": 96,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G29",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766043b"
+    },
+    "numero": 97,
+    "pavimento": "mezanino",
+    "capacidade": 8,
+    "reservavel": true,
+    "garcom": "G29",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766043c"
+    },
+    "numero": 98,
+    "pavimento": "mezanino",
+    "capacidade": 4,
+    "reservavel": true,
+    "garcom": "G30",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766043d"
+    },
+    "numero": 99,
+    "pavimento": "mezanino",
+    "capacidade": 2,
+    "reservavel": true,
+    "garcom": "G30",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  },
+  {
+    "_id": {
+      "$oid": "6afda892b955cac64766043e"
+    },
+    "numero": 100,
+    "pavimento": "mezanino",
+    "capacidade": 6,
+    "reservavel": false,
+    "garcom": "G30",
+    "status": "livre",
+    "status_desde": {
+      "$date": "2026-11-18T13:30:58Z"
+    },
+    "atendimento_id": null
+  }
+]
