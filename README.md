@@ -71,4 +71,4 @@ Python | MongoDB | NoSQL
 
 ## Contato
 
-LinkedIn: coloque-seu-link-aqui
+LinkedIn: www.linkedin.com/in/gustavo-oliveira-8928692b1
