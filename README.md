@@ -62,15 +62,15 @@ Tecnologias:
 
 ---
 
-## Atualmente estudando
+## 📚 Atualmente estudando
 
-- Process Mining
-- Celonis
-- Data Analytics
-- Python
-- IA
-- Automação
-- Cloud
+![Process Mining](https://img.shields.io/badge/Process_Mining-0078D4?style=flat&logoColor=white)
+![Celonis](https://img.shields.io/badge/Celonis-00AEEF?style=flat&logoColor=white)
+![Data Analytics](https://img.shields.io/badge/Data_Analytics-F2C811?style=flat&logo=googleanalytics&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![IA](https://img.shields.io/badge/IA-412991?style=flat&logo=openai&logoColor=white)
+![Automação](https://img.shields.io/badge/Automa%C3%A7%C3%A3o-0066FF?style=flat&logo=powerautomate&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 
 ## Contato
 
