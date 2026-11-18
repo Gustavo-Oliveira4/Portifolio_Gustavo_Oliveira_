@@ -15,7 +15,6 @@ Power Automate, Git/GitHub, MongoDB e análise de dados.
 Também venho aprofundando meus conhecimentos em Process Mining
 e soluções utilizando Celonis.
 
-## Tecnologias
 
 ## 🛠️ Tecnologias
 
