@@ -15,11 +15,10 @@ Também venho aprofundando meus conhecimentos em Process Mining e soluções uti
 
 Tecnologias: 
 Python - 
-Power BI - 
 IA - 
 Ollama - 
-DAX - 
 Power Query - 
+Exel - 
 MongoDB - 
 SQL - 
 Git - 
