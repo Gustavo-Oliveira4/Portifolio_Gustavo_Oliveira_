@@ -20,6 +20,8 @@ e soluções utilizando Celonis.
 - Python
 - Power BI
 - DAX
+- IA
+- Ollama
 - Power Query
 - MongoDB
 - SQL
@@ -36,7 +38,7 @@ Aplicação desenvolvida em Python e Streamlit para analisar
 a documentação existente em projetos e repositórios.
 
 Tecnologias:
-Python | Streamlit | Git
+Python | Streamlit | Git | Ollama
 
 ---
 
