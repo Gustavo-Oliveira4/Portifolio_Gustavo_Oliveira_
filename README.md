@@ -59,6 +59,7 @@ Python | MongoDB | NoSQL
 - Celonis
 - Data Analytics
 - Python
+- IA
 - Automação
 - Cloud
 
